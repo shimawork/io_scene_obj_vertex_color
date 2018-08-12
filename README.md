@@ -20,7 +20,7 @@ https://blender.stackexchange.com/questions/90890/how-to-display-and-use-vertex-
 
 
 # で、__init__.pyの142行目をコメントアウト
-'''python
+```Python:__init__.py
         keywords["global_matrix"] = global_matrix
 #        keywords["use_cycles"] = (context.scene.render.engine == 'CYCLES')
 
@@ -29,7 +29,7 @@ https://blender.stackexchange.com/questions/90890/how-to-display-and-use-vertex-
             keywords["relpath"] = os.path.dirname(bpy.data.filepath)
 
         return import_obj.load(context, **keywords)
-'''
+```
 
 
 ### あとは普通にimport
