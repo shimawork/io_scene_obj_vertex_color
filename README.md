@@ -20,6 +20,17 @@ https://blender.stackexchange.com/questions/90890/how-to-display-and-use-vertex-
 
 
 # で、__init__.pyの142行目をコメントアウト
+'''python
+        keywords["global_matrix"] = global_matrix
+#        keywords["use_cycles"] = (context.scene.render.engine == 'CYCLES')
+
+        if bpy.data.is_saved and context.user_preferences.filepaths.use_relative_paths:
+            import os
+            keywords["relpath"] = os.path.dirname(bpy.data.filepath)
+
+        return import_obj.load(context, **keywords)
+'''
+
 
 ### あとは普通にimport
 
