@@ -5,7 +5,7 @@
 https://blender.stackexchange.com/questions/90890/how-to-display-and-use-vertex-color-from-obj-model
 
 ### でこのままだとimportするとなんちゃらエラー
-'''
+`
 Traceback (most recent call last):
   File "/Applications/Blender/blender.app/Contents/Resources/2.79/scripts/addons/io_scene_obj/__init__.py", line 148, in execute
     return import_obj.load(context, **keywords)
@@ -14,7 +14,7 @@ TypeError: load() got an unexpected keyword argument 'use_cycles'
 location: <unknown location>:-1
 
 
-'''
+`
 
 
 
